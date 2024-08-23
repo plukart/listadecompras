@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://blog.aepla.es/wp-content/uploads/2023/01/beneficios-saludables-frutas-verduras.jpeg);
+    text-align: center;
+    color: aliceblue;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    text-align: center;
+    padding: 15%;
+    color: aliceblue;
+    margin: 5%;
+    opacity: 0.9;
+    border-radius: 50px;
+}
+
+div:hover{
+    background-color: red;
+    opacity: 1;
+    transition: 2.5s;
+}
+h1{
+    font-size: 2rem;
+    color: aliceblue;
+    padding-bottom: 40px ;
+}
+
+p{
+    font-size: 1.2rem;
+    color: aliceblue;
+    
+}
+
